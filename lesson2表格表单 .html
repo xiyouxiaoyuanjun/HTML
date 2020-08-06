@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table border="1" width="500" height="100" align="center" cellspacing="0" cellpadding="10">
+    <caption>小说排行榜</caption>
+    <tr>
+        <th>排名</th>
+        <th>关键词</th>
+        <th>趋势</th>
+        <th>今日搜索</th>
+        
+        <th>最近柒日</th><th>相关链接</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>鬼吹灯</td>
+        <td>1</td>
+        <td>265</td>
+        <td>9656</td>
+        <td>
+            <a href="#">贴吧</a>
+            <a href="#">百度</a>
+            <a href="#">百科</a>
+        </td>
+
+
+    </tr>
+    <tr>
+        <!-- <跨行合并> -->
+        <td rowspan="2">1</td>
+        <td>鬼吹灯</td>
+        <td>1</td>
+        <td>265</td>
+        <td>9656</td>
+        <td>
+            <a href="#">贴吧</a>
+            <a href="#">百度</a>
+            <a href="#">百科</a>
+        </td>
+
+
+    </tr>
+    <tr>
+        <!-- <跨列合并单元格> -->
+        <td colspan="2">鬼吹灯</td>
+        <td>265</td>
+        <td>9656</td>
+        <td>
+            <a href="#">贴吧</a>
+            <a href="#">百度</a>
+            <a href="#">百科</a>
+        </td>
+
+
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>鬼吹灯</td>
+        <td>1</td>
+        <td>265</td>
+        <td>9656</td>
+        <td>
+            <a href="#">贴吧</a>
+            <a href="#">百度</a>
+            <a href="#">百科</a>
+        </td>
+
+
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>鬼吹灯</td>
+        <td>1</td>
+        <td>265</td>
+        <td>9656</td>
+        <td>
+            <a href="#">贴吧</a>
+            <a href="#">百度</a>
+            <a href="#">百科</a>
+        </td>
+
+
+    </tr>
+
+</table>
+
+
+
+<!-- <无序列表> -->
+<h2>无序列表</h2>
+你喜欢的水果有哪些
+<ul>
+    <li>香蕉</li>
+    <li>苹果</li>
+    <li>榴莲</li>
+    <li>
+        <div>哈哈哈哈</div><br>
+    </li>
+</ul>
+<h2>有序列表</h2>
+<ol>
+    <li>香蕉</li>
+    <li>苹果</li>
+    <li>榴莲</li>
+</ol>
+
+<h1>自定义列表</h1>
+<dl>
+    <dt>北京</dt>
+    <dd>烤鸭</dd>
+    <dd>强剪子</dd>
+    <dd>哇呜</dd>
+</dl>
+
+
+用户名:<input type="text" value="请输入用户名" name="username"><br>
+密码：<input type="password" name="password"><br>
+<!-- <通过sex二选一送入后台> -->
+性别：<input type="radio" name="sex">男<input type="radio" name="sex">女<br>
+爱好：
+<!-- <checked为默认选择，可取消> -->
+爬山<input type="checkbox" name="hobby"><br>
+游泳<input type="checkbox" name="hobby" checked="checked"><br>
+打球<input type="checkbox" name="hobby"><br>
+滑板<input type="checkbox" name="hobby"><br>
+
+<input type="button" value="获取短信验证码"><br>
+<input type="submit"><input type="reset">
+<!-- 图片按钮 -->
+<input type="image" src="tupian.jpg" value="重置">
+上传头像
+<input type="file" name="touxiang">
+
+<h2>label标签直接包含表单</h2>
+<label>用户名<input type="text" name="username" value="输入用户名"></label>
+<h2>label通过for和id控制</h2>
+<label for="nic">昵称：</label> <input type="text" id="nic">
+
+用户留言：
+<textarea>
+    colspan="50" rowspan="3"
+</textarea><br>
+
+来源地
+<!-- <selected="selected>为默认选择 -->
+<select>
+    <option>北京</option>
+    <option>上海</option>
+    <option>陕西</option>
+    <option>山西</option>
+    <option>重庆</option>
+    <option>苏州</option>
+</select>
+
+
+
+<!-- form为表单域 -->
+<form action="">
+     用户名:<input type="text"><br>
+     密码：<input type="password"><br>
+     <input type="submit"><br>
+     <input type="reset">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
